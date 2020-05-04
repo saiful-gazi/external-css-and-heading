@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 25px;
+    background: red;
+}
+
+.header .news{
+    width: 160px;
+    height: 25px;
+    background: green;
+    float: left;
+    
+    
+}
+
+.header .scroll{
+    width: 650px;
+    height: 25px;
+    background: yellow;
+    float: left;
+    
+}
+.header .social{
+    width: 150px;
+    height: 25px;
+    background: red;
+    float: left;
+}
+
+.header .news h2{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 0px;
+    padding-left:10px;
+    color: #fff;
+}
+
+.header .scroll marquee{
+    color: red;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+.header .social li{
+    float: left;
+    padding-left:15px;
+}
